@@ -82,8 +82,7 @@ And your implementation might look something like this:
 package filething
 
 type FileThing struct {
-	Path   string
-	remove Remover
+	Path string
 }
 
 func New(path string) FileThing {
